@@ -22,4 +22,16 @@ class HomeController extends Controller
         return view('shop', $data);
 
     }
+
+    public function contatti(){
+
+        $data = [
+            'indirizzo' => 'Via Pallone Gonfio n.33',
+            'numero' => 2163913613,
+            'email' => 'vestitoperte@mail.com'
+        ];
+
+        return view('contacts', $data);
+        
+    }
 }
