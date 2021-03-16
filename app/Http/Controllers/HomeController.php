@@ -15,7 +15,11 @@ class HomeController extends Controller
 
     public function shop(){
 
-        return view('shop');
+        $dati_shop = Dress::all();
+
+        $data = [ 'dress'=>$dati_shop ];
+        
+        return view('shop', $data);
 
     }
 }
