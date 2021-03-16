@@ -12,6 +12,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ Route('shop_page') }}">Shop</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ Route('contact_page') }}">Contacts</a>
+                    </li>
                 </ul>
             </div>
         </div>
